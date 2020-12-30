@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Testing') {
+      steps {
+        echo 'This is Blue Ocean pipeline testing phase'
+      }
+    }
+
   }
 }
